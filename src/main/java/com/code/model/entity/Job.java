@@ -36,4 +36,9 @@ public class Job {
     @JoinColumn(name = "company_id", referencedColumnName = "id",
             foreignKey = @ForeignKey(name = "FK_jobs_companies"))
     private Company company;
+
+    @ManyToOne
+    @JoinColumn(name = "category_id", referencedColumnName = "id"
+            ,foreignKey = @ForeignKey(name = "FK_jobs_categories"))
+    private Category category;
 }
