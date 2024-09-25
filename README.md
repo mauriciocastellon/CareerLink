@@ -20,7 +20,7 @@
 | **En Pruebas**    | Contiene las tareas que han pasado la revisión de código y necesitan pruebas exhaustivas (unitarias, de integración y de aceptación) para garantizar su calidad. |
 | **Hecho**         | Las tareas completamente desarrolladas, revisadas y probadas se mueven aquí, indicando que están listas y finalizadas.                               |
 
-Mira cómo va avanzando nuestro trabajo visitando el siguiente enlace: [Tablero de Trello](https://trello.com/b/5sNtLdze).
+Mira cómo va avanzando mi trabajo visitando el siguiente enlace: [Tablero de Projecto](https://github.com/users/mauriciocastellon/projects/1).
 
 
 ### Funcionalidades de la Aplicación CareerLink
@@ -32,58 +32,55 @@ Mira cómo va avanzando nuestro trabajo visitando el siguiente enlace: [Tablero 
     - Facilitar el inicio de sesión para acceder a la cuenta personal.
     - Mantener la seguridad de las credenciales de los usuarios.
 
-#### **Módulo de Compras**
 
-- **Compra de Libros Electrónicos:**
-    - Integración con PayPal para pagos seguros y rápidos.
-    - Procesamiento de transacciones para la compra de libros electrónicos.
-    - Confirmación de la compra y entrega del libro en formato digital al usuario.
+#### **Módulo de Gestión de Empleos**
 
-#### **Módulo de Gestión de Contenido**
+- **Gestión de Empleos:**
+    - Añadir nuevos empleos.
+    - Editar detalles de los empleos existentes.
+    - Eliminar empleos.
+    - Listar todos los empleos disponibles para los usuarios.
 
-- **Gestión de Libros:**
-    - Añadir nuevos libros al catálogo.
-    - Editar detalles de los libros existentes.
-    - Eliminar libros del catálogo.
-    - Listar todos los libros disponibles para los usuarios.
+- **Categorías de Empleos:**
+    - Clasificar empleos en diferentes categorías.
+    - Facilitar la navegación y búsqueda de empleos por categoría.
+    - Mejorar la organización del catálogo de empleos.
 
-- **Categorías de Libros:**
-    - Clasificar libros en diferentes categorías.
-    - Facilitar la navegación y búsqueda de libros por categoría.
-    - Mejorar la organización del catálogo de libros.
+- **Gestión de Empleadores:**
+    - Añadir nuevos empleadores a la base de datos.
+    - Editar información de empleadores existentes.
+    - Eliminar empleadores de la base de datos.
+    - Mantener actualizada la información de los empleadores.
 
-- **Gestión de Autores:**
-    - Añadir nuevos autores a la base de datos.
-    - Editar información de autores existentes.
-    - Eliminar autores de la base de datos.
-    - Mantener actualizada la información de los autores.
+#### **Módulo de Coleccion Personal**
 
-#### **Módulo de Biblioteca Personal**
+- **Biblioteca Personal de Empleos:**
+    - Permitir a los usuarios organizar sus empleos en colecciones personalizadas.
+    - Facilitar la creación, edición y eliminación de colecciones de empleos.
+    - Mejorar el acceso y la gestión de la coleccion personal del usuario.
 
-- **Biblioteca Personal de Libros:**
-    - Permitir a los usuarios organizar sus libros comprados en colecciones personalizadas o "estanterías virtuales".
-    - Facilitar la creación, edición y eliminación de colecciones de libros.
-    - Mejorar el acceso y la gestión de la biblioteca personal del usuario.
 
-#### **Módulo de Reportes**
 
-- **Reportes de Actividad y Ventas:**
-    - Generar reportes de compras realizadas por los usuarios.
-    - Mostrar estadísticas de ventas de libros.
-    - Proveer información detallada sobre la actividad de los usuarios, como libros más comprados o autores más populares.
+
+#### **Módulo de Reportes** (maybe)
+
+- **Reportes de Actividad:**
+    - Generar reportes de aplicaciones realizadas por los usuarios.
+    - Mostrar estadísticas de aplicaciones de empleos.
+    - Proveer información detallada sobre la actividad de los usuarios, como cantidad de aplicaciones o empleadores mas populares.
 
 ## Diagramas de la Aplicación
 
-Para entender mejor la estructura y diseño de la aplicación "BookHub", revisa los siguientes diagramas:
+Para entender mejor la estructura y diseño de la aplicación "Careerlink", revisa los siguientes diagramas:
 
 ### Diagrama de Clases
 
-![Diagrama de Clases](diagrama_clase_venta_libro.png)
+![Diagrama de Clases](Diagrama_de_Clases.png)
 
 
 ### Diagrama de Base de Datos
 
-![Diagrama de Base de Datos](diagrama_base_datos_venta_libro.png)
+![Diagrama de Base de Datos](Diagrama_de_Base_de_Datos.jpeg)
 
 Este diagrama ilustra el esquema de la base de datos utilizada por la aplicación, mostrando las tablas, columnas, y relaciones entre las entidades.
 
