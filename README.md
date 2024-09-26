@@ -94,8 +94,8 @@ Este diagrama ilustra el esquema de la base de datos utilizada por la aplicació
 |             | Gestión de Usuarios           | Historia de Usuario 6: Permitir a los usuarios actualizar su información personal. | Como usuario, quiero poder actualizar mi información personal para mantener mis datos al día en la plataforma.                                    | CRUD  |
 |             | Gestión de Usuarios           | Historia de Usuario 9: Ver Detalles de mi Perfil.                     | Como usuario, quiero poder ver todos los detalles de mi perfil en una sección dedicada para revisar mi información personal y mi historial de actividad en la plataforma. | CRUD  |
 |             | Gestión de Colección de Trabajos | Historia de Usuario 12: Añadir trabajos a la colección del usuario.      | Como usuario, quiero poder añadir trabajos a mi colección personal para organizar mis postulaciones  en un solo lugar.                        | Core  |
-|             | Gestión de Colección de Libros | Historia de Usuario 13: Eliminar trabajos de la colección del usuario.   | Como usuario, quiero poder eliminar trabajos de mi colección personal cuando ya no los necesite o no desee tenerlos en mi lista.                    | Core  |
-|             | Gestión de Colección de Libros | Historia de Usuario 14: Ver la lista de trabajos en la colección del usuario. | Como usuario, quiero ver la lista completa de libros en mi colección para gestionar y revisar fácilmente mis libros favoritos.                    | CRUD  |
+|             | Gestión de Colección de Trabajos | Historia de Usuario 13: Eliminar trabajos de la colección del usuario.   | Como usuario, quiero poder eliminar trabajos de mi colección personal cuando ya no los necesite o no desee tenerlos en mi lista.                    | Core  |
+|             | Gestión de Colección de Trabajos | Historia de Usuario 14: Ver la lista de trabajos en la colección del usuario. | Como usuario, quiero ver la lista completa de trabajos en mi colección para gestionar y revisar fácilmente mis trabajos.                    | CRUD  |
 
 
  **Sprint 2:** Integración de Funcionalidades y Optimización del Producto  
@@ -105,6 +105,6 @@ Este diagrama ilustra el esquema de la base de datos utilizada por la aplicació
 |-------------|------------------------------|----------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|-------|
 | Integrante 1| Gestión de Categorías         | Historia de Usuario 21: Filtrar categorías por criterios específicos. | Como administrador, quiero poder filtrar categorías por criterios específicos para gestionar mejor la organización del catálogo de libros.        | CRUD  |
 |             | Gestión de Trabajos             | Historia de Usuario 22: Implementar paginación en la lista de libros. | Como administrador, quiero poder ver la lista de libros con paginación para facilitar la gestión de grandes volúmenes de datos en la plataforma.  | Core  |
-| | Gestión de Companias            | Historia de Usuario 24: Buscar y filtrar autores por tipo de empleo o lugar de trabajo. | Como administrador, quiero poder buscar y filtrar autores por empleo olugar de trabajo para mejorar la gestión y actualización de la base de datos de Companias. | CRUD  |
+| | Gestión de Companias            | Historia de Usuario 24: Buscar y filtrar companias por tipo de empleo o lugar de trabajo. | Como administrador, quiero poder buscar y filtrar companias por empleo olugar de trabajo para mejorar la gestión y actualización de la base de datos de Companias. | CRUD  |
 
 
