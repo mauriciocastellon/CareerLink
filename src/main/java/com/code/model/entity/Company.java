@@ -37,7 +37,7 @@ public class Company {
     @Column(name = "updated_at")
     private LocalDateTime updatedAt;
 
-    @OneToOne
-    @JoinColumn(name = "user_id", referencedColumnName = "id")
-    private User user;
+   // @OneToOne
+   // @JoinColumn(name = "user_id", referencedColumnName = "id")
+   // private User user;
 }

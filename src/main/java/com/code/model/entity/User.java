@@ -23,8 +23,8 @@ public class User {
     private Applicant applicant;
 
     // Relación uno a uno con Company (si el usuario es empleador)
-    @OneToOne(mappedBy = "user", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
-    private Company company;
+  //  @OneToOne(mappedBy = "user", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+   // private Company company;
 
 
     // Relación muchos a uno con Role (para determinar si es aplicante, empleador o miembro)
