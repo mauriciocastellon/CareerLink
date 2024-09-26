@@ -103,8 +103,8 @@ Este diagrama ilustra el esquema de la base de datos utilizada por la aplicació
 
 | Integrante  | Módulo                       | Historia de Usuario                                                   | Descripción                                                                                                                                      | Tipo  |
 |-------------|------------------------------|----------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|-------|
-| Integrante 1| Gestión de Categorías         | Historia de Usuario 21: Filtrar categorías por criterios específicos. | Como administrador, quiero poder filtrar categorías por criterios específicos para gestionar mejor la organización del catálogo de libros.        | CRUD  |
-|             | Gestión de Trabajos             | Historia de Usuario 22: Implementar paginación en la lista de libros. | Como administrador, quiero poder ver la lista de libros con paginación para facilitar la gestión de grandes volúmenes de datos en la plataforma.  | Core  |
+| Integrante 1| Gestión de Categorías         | Historia de Usuario 21: Filtrar categorías por criterios específicos. | Como administrador, quiero poder filtrar categorías por criterios específicos para gestionar mejor la organización del catálogo de trabajos.        | CRUD  |
+|             | Gestión de Trabajos             | Historia de Usuario 22: Implementar paginación en la lista de trabajos. | Como administrador, quiero poder ver la lista de trabajos con paginación para facilitar la gestión de grandes volúmenes de datos en la plataforma.  | Core  |
 | | Gestión de Companias            | Historia de Usuario 24: Buscar y filtrar companias por tipo de empleo o lugar de trabajo. | Como administrador, quiero poder buscar y filtrar companias por empleo olugar de trabajo para mejorar la gestión y actualización de la base de datos de Companias. | CRUD  |
 
 
